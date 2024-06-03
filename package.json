@@ -1,0 +1,10 @@
+{
+  "name": "SSE-Server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Laurent R <laurent@raboteau.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
