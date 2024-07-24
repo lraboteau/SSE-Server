@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
   const intervalId = setInterval(() => {
     const date = new Date().toLocaleString()
-    res.write(`data: ${date}\n\n`)
+    res.write(`data: \{\"Time\": \"${date}\"\}\n\n`)
   }, 1000)
 
   res.on('close', () => {
